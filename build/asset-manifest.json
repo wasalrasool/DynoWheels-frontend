@@ -1,0 +1,31 @@
+{
+  "files": {
+    "main.css": "/static/css/main.d281db77.chunk.css",
+    "main.js": "/static/js/main.bdfc1fee.chunk.js",
+    "main.js.map": "/static/js/main.bdfc1fee.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.589ceb3e.js",
+    "runtime-main.js.map": "/static/js/runtime-main.589ceb3e.js.map",
+    "static/css/2.0b7ab2c9.chunk.css": "/static/css/2.0b7ab2c9.chunk.css",
+    "static/js/2.26080341.chunk.js": "/static/js/2.26080341.chunk.js",
+    "static/js/2.26080341.chunk.js.map": "/static/js/2.26080341.chunk.js.map",
+    "index.html": "/index.html",
+    "static/css/2.0b7ab2c9.chunk.css.map": "/static/css/2.0b7ab2c9.chunk.css.map",
+    "static/css/main.d281db77.chunk.css.map": "/static/css/main.d281db77.chunk.css.map",
+    "static/js/2.26080341.chunk.js.LICENSE.txt": "/static/js/2.26080341.chunk.js.LICENSE.txt",
+    "static/media/Appstore.d0c58399.png": "/static/media/Appstore.d0c58399.png",
+    "static/media/Profile.697fdcd2.png": "/static/media/Profile.697fdcd2.png",
+    "static/media/car2.dc01071f.png": "/static/media/car2.dc01071f.png",
+    "static/media/car3.37fdcd51.png": "/static/media/car3.37fdcd51.png",
+    "static/media/car4.ca61266c.png": "/static/media/car4.ca61266c.png",
+    "static/media/car5.87d15ddd.png": "/static/media/car5.87d15ddd.png",
+    "static/media/dynowheels.5198e155.png": "/static/media/dynowheels.5198e155.png",
+    "static/media/playstore.82b48319.png": "/static/media/playstore.82b48319.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.589ceb3e.js",
+    "static/css/2.0b7ab2c9.chunk.css",
+    "static/js/2.26080341.chunk.js",
+    "static/css/main.d281db77.chunk.css",
+    "static/js/main.bdfc1fee.chunk.js"
+  ]
+}
