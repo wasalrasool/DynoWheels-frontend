@@ -1,0 +1,19 @@
+.flex{
+    display: flex;
+
+}
+.center{
+    align-items: center;
+    justify-content: center;
+}
+.whats-wrapper{
+    height: 40vmax;
+    width: 100%;
+    /* background-color: black; */
+
+}
+.whatsapp{
+    width: 40%;
+    background-color: greenyellow;
+    padding: 2vmax;
+}

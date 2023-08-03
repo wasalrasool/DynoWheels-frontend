@@ -1,0 +1,204 @@
+.speedDial {
+  position: fixed;
+  right: 3.5vmax;
+  top: 2.5vmax;
+}
+
+.speedDialIcon {
+  width: 75px;
+  height: 75px;
+  border-radius: 100%;
+}
+
+/* //////////////////////////// */
+.flex{
+  display: flex;
+}
+
+
+.header-1{
+  /* font-family: Arial, Helvetica, sans-serif; */
+  width: 100%;
+  /* border: 1px solid red; */
+  background-color: rgb(111, 108, 108);
+  color: white;
+}
+.white-color{
+  color: white;
+}
+ul{
+  margin: auto;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
+li{
+  list-style-type: none;
+  margin: 0.7em 2em 0.7em 2em;
+  cursor: pointer;
+}
+
+/* header-2 */
+.header-2{
+  margin: auto;
+ /* border: 1px solid red; */
+ padding: 20px 0px;
+  width: 100%;
+  justify-content: space-evenly;
+}
+.menu-wrapper{
+  display: flex;
+  justify-content: space-evenly;
+  border-top:1px solid gray;
+  border-bottom:1px solid gray;
+  width: 40%;
+  padding-top: 1rem;
+  padding-bottom: 0.5rem;
+}
+.search-bar{
+  width: 40%;
+  border-radius: 3px;
+  border: 1px solid rgb(255, 107, 1);
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(255, 107, 1);
+}
+input[type=text] {
+  width: 100%;
+  padding: 12px 20px;
+  box-sizing: border-box;
+  outline: none;
+  border: none;
+  background-color: rgb(232, 235, 237);
+  border-radius: 3px;
+  /* font-family: Arial, Helvetica, sans-serif; */
+  font-size: 16px;
+}
+.search-opt{
+  border-radius: 3px 3px 3px 3px;
+  /* border: 1px solid red; */
+  background-color: rgb(255, 107, 1);
+
+
+  color: white;
+  width: 100%;
+  /* display: block; */
+  display: flex;
+  justify-content: space-evenly;
+
+  /* padding: 0 3vw; */
+  
+  cursor: pointer;
+}
+
+.menu, h5,h6{
+  font-size: 20px;
+  /* border: 1px solid red; */
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  font-weight: 100;
+  font-family: Arial, Helvetica, sans-serif;
+  
+}
+@import url('https://fonts.googleapis.com/css2?family=Caveat&display=swap');
+.logo{
+  justify-content: center;
+  align-items: center;
+  /* max-width: 70px;
+ /* overflow: hidden; */
+  /* border: 1px solid red; */
+  /*object-fit: cover; */
+}
+.logo h1{
+  font-family: 'Caveat', cursive;
+}
+
+#burger{
+  display: none;
+}
+@media screen and (max-width: 600px) {
+  .header-1{
+    font-size: 12px;
+  }
+  button{
+    padding: 0 1.5vw;
+  }
+  .header-2{
+    margin-top: 3rem;
+  }
+  .logo{
+    /* width: 100%; */
+    top: 6.6rem;
+    position: absolute;
+    
+  }
+     .search-bar{
+    /* border: 1px solid red; */
+    width: 60%;
+    justify-content: space-evenly;
+   
+  }
+  .search-opt h6{
+  font-size: 14px;
+  }
+  .speedDialIcon{
+    width: 56px;
+  height: 56px;
+  }
+}
+
+@media screen and (max-width: 1100px) {
+  .menu h5{
+    /* display: none; */
+    font-size: 15px;
+  }
+  /* #burger{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  } */
+  .header-2{
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .search-bar{
+    border: 1px solid red;
+    width: 50%;
+    margin-bottom: 2rem;
+  }
+  .search-opt{
+    align-items: center;
+    flex-direction: column;
+  }
+  .menu-wrapper{
+    width:100%;
+  }
+  .speedDialIcon{
+    width: 56px;
+  height: 56px;
+  }
+}
+/* 
+@media screen and (max-width: 1100px) {
+  .header-2{
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+} */
+
+.menu-wrapper .link{
+
+  transition: 0.5s all;
+
+}
+.menu-wrapper .link:hover{
+color: orange;
+transition: 0.5s all;
+}
+
