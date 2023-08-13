@@ -81,6 +81,8 @@ function App() {
     <Router>
       <Header />
 
+      {console.log(window.location.pathname)}
+
       {isAuthenticated && <UserOptions user={user} />}
 
       {stripeApiKey && (

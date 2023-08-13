@@ -74,7 +74,7 @@ const Dashboard = () => {
         <div className="dashboardSummary">
           <div>
             <p>
-              Total Profit <br /> Rs  {totalAmount}
+              Total Sale <br /> Rs  {totalAmount}
             </p>
           </div>
           <div className="dashboardSummaryBox2">

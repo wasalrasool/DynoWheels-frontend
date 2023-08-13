@@ -101,9 +101,31 @@
 .instagramSvgIcon {
   color: rgb(144, 81, 202);
 }
+@media screen and (max-width: 1100px) {
+  .aboutSectionContainer{
+    /* top: 70%; */
+    margin-top: 10vmax;
+  }
+
+}
+
+@media screen and (max-width: 920px) {
+  .aboutSectionContainer{
+    /* top: 70%; */
+    margin-top: 15vmax;
+  }
+
+}
+
+
 
 @media screen and (max-width: 600px) {
+
+  .aboutSectionContainer{
+    /* top: 120%; */
+  }
   .aboutSectionContainer > div {
+    /* margin-top: 200vmax; */
     display: block;
   }
 

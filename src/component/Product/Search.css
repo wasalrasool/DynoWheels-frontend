@@ -22,6 +22,7 @@
   outline: none;
   border-radius: 0%;
   font: 300 1.1vmax cursive;
+  font-family: 'Poppins', sans-serif;
   box-sizing: border-box;
   height: 8%;
 }
@@ -43,8 +44,23 @@
   background-color: rgb(55, 97, 214);
 }
 
+@media screen and (max-width: 1100px) {
+
+  .searchBox{
+    margin-top: -15vmax;
+  }
+
+
+}
+
 @media screen and (max-width: 600px) {
+
+  .searchBox{
+    margin-top: -20vmax;
+  }
+  
   .searchBox > input[type="text"] {
+   
     width: 100%;
     font: 300 4vw cursive;
     height: 10%;
